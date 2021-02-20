@@ -37,55 +37,55 @@ print(number_one>>1)
 print(number_two>>1)
 
 #------------Membership Operators--------------
-a =[23,'Banana',45,'Siddu']
-print(23 in a)
-print('Siddu' not in a)
+list =[23,'Banana',45,'Siddu']
+print(23 in list)
+print('Siddu' not in list)
 
 #------------Assignment Operators---------------
-x = int(input("Enter the number "))
-x += 3
-print("The value of x after using += operator is ", x)
+input_number = int(input("Enter the number "))
+input_number += 3
+print("The value of input_number after using += operator is ", input_number)
 
-x = int(input("Enter the number "))
-x -= 3
-print("The value of x after using -= operator is ", x)
+input_number = int(input("Enter the number "))
+input_number -= 3
+print("The value of input_number after using -= operator is ", input_number)
 
-x = int(input("Enter the number "))
-x *= 3
-print("The value of x after using *= operator is ", x)
+input_number = int(input("Enter the number "))
+inlut_number *= 3
+print("The value of input_number after using *= operator is ", input_number)
 
-x = int(input("Enter the number "))
-x /= 3
-print("The value of x after using /= operator is", x)
+input_number = int(input("Enter the number "))
+input_number /= 3
+print("The value of input_number after using /= operator is", input_number)
 
-x = int(input("Enter the number"))
-x %= 4
-print("The value of x after using %= operator is", x)
+input_number = int(input("Enter the number"))
+input_number %= 4
+print("The value of input_number after using %= operator is", input_number)
 
-x = int(input("Enter the number"))
-x //= 3
-print("The value of x after using //= operator is", x)
+input_number = int(input("Enter the number"))
+input_number //= 3
+print("The value of input_number after using //= operator is", input_number)
 
-x = int(input("Enter the number"))
-x **= 3
-print("The value of x after using **= operator is", x)
+input_number = int(input("Enter the number"))
+input_number **= 3
+print("The value of input_number after using **= operator is", input_number)
 
-x = int(input("Enter the number"))
-x &= 3
-print("The value of x after using &= operator is", x)
+input_number = int(input("Enter the number"))
+input_number &= 3
+print("The value of input_number after using &= operator is", input_number)
 
-x = int(input("Enter the number"))
-x |= 7
-print("The value of x after using |= operator is", x)
+input_number = int(input("Enter the number"))
+input_number |= 7
+print("The value of input_number after using |= operator is", input_number)
 
-x = int(input("Enter the number"))
-x ^= 0
-print("The value of x after using ^= operator is", x)
+input_number = int(input("Enter the number"))
+input_number ^= 0
+print("The value of input_number after using ^= operator is", input_number)
 
-x = int(input("Enter the number"))
-x >>= 3
-print("The value of x after using >>= operator is", x)
+input_number = int(input("Enter the number"))
+input_number >>= 3
+print("The value of input_number after using >>= operator is", input_number)
 
-x = int(input("Enter the number"))
-x <<= 3
-print("The value of x after using <<= operator is", x)
+input_number = int(input("Enter the number"))
+input_number <<= 3
+print("The value of input_number after using <<= operator is", input_number)
